@@ -10,8 +10,10 @@ import { VentasModule } from './ventas/ventas.module';
 
 // Cambiar el locale de la app.
 import localeEsMx from "@angular/common/locales/es-MX";
+import localeFr from "@angular/common/locales/fr";
 import { registerLocaleData } from "@angular/common";
 registerLocaleData(localeEsMx);
+registerLocaleData(localeFr);
 
 @NgModule({
   declarations: [
