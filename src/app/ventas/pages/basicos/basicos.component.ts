@@ -11,4 +11,6 @@ export class BasicosComponent {
   nombreUpper: string = "BOANERGES";
   nombreCompleto: string = "RaMon BoanerGERs";
 
+  fecha: Date = new Date(); // Fecha propia de JavaScript, que será la de hoy.
+
 }
