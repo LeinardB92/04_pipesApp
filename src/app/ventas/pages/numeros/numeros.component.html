@@ -11,5 +11,18 @@
             {{ventasNetas | number : '1.2-2'}}
         </p-card>
     </div>
+    <div class="col-4">
+        <p-card header="Ventas Brutas"
+                subheder="le presente año">
+            <i class="pi pi-dollar"></i>
+            {{(ventasNetas + 1000000) | currency : 'MXN ' : 'code' : '1.4-4'}}
+        </p-card>
+    </div>
+    <div class="col-4">
+        <p-card header="Ganancia porcentual"
+                subheder="le presente año">
+            {{porcentaje | percent : '2.2-2'}}
+        </p-card>
+    </div>
 </div>
 
