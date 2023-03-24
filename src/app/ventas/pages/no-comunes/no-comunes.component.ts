@@ -23,4 +23,13 @@ export class NoComunesComponent {
     '=1':'un cliente esperando.',
     'other':'# clientes esperando.'
   };
+
+  cambiarNombre(){
+    this.nombre = 'Boanerges';
+    this.genero = 'masculino' 
+  };
+
+  borrarNombre(){
+    this.clientes.pop();
+  };
 }
