@@ -39,4 +39,20 @@ export class NoComunesComponent {
     edad: 30,
     direccion: 'Manzana 1'
   };
+
+  //Json Pipe
+  heroes: object[] = [
+    {
+      nombre: 'superman',
+      vuela: true
+    },
+    {
+      nombre: 'plasticman',
+      vuela: true
+    },
+    {
+      nombre: 'chacal',
+      vuela: false
+    }
+  ]
 }
