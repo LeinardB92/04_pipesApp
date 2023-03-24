@@ -17,7 +17,7 @@ export class NoComunesComponent {
   };
 
   //i18nPlural
-  clientes: string[] = ['María', 'Pedro', 'Susan'];
+  clientes: string[] = ['María', 'Pedro', 'Susan', 'Esmeralda', 'Ulises'];
   clientesMapa = {
     '=0':'0 clientes esperando.',
     '=1':'un cliente esperando.',
