@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class OrdenarComponent {
   
+  enMayusculas: boolean = true;
+
+  cambiarAMayusculas(){
+      return this.enMayusculas = !this.enMayusculas;;
+  }
 }
